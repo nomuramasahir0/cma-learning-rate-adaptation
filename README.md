@@ -18,6 +18,13 @@ python main.py --function=sphere \
   --mean=3.0 \
   --sigma=2.0
 ```
+Users can specify the experimental settings by adding the following flags:
+* --dim: # dimension (required)
+* --mean: initial mean vector (required; currently only scalar value is accepted)
+* --sigma: initial step-size (required)
+* --max_evals: maximum # evaluations (default=10000000; int)
+* --criterion: target value, i.e., the optimization will stop when the function value reaches it (default=1e-3; float)
+
 You can run the experiments on other functions by specifying such arguments in the same way.
 The benchmark functions include
 `sphere` (Sphere), `ellipsoid` (Ellipsoid), `rosen` (Rosenbrock),
