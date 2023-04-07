@@ -19,6 +19,7 @@ python main.py --function=sphere \
   --sigma=2.0
 ```
 Users can specify the experimental settings by adding the following flags:
+* --function: objective function (required; please see the below)
 * --dim: # dimension (required)
 * --mean: initial mean vector (required; currently only scalar value is accepted)
 * --sigma: initial step-size (required)
