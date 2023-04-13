@@ -1,10 +1,19 @@
-## CMA-ES with Learning Rate Adaptation: Can CMA-ES with Default Population Size Solve Multimodal and Noisy Problems?
+## CMA-ES with Learning Rate Adaptation: Can CMA-ES with Default Population Size Solve Multimodal and Noisy Problems? (GECCO2023)
 
 ### About
 This repository contains the code for the paper
 "[CMA-ES with Learning Rate Adaptation: Can CMA-ES with Default Population Size Solve Multimodal and Noisy Problems?](https://arxiv.org/abs/2304.03473)"
 by Masahiro Nomura, Youhei Akimoto, and Isao Ono, which has been accepted to [GECCO'23](https://gecco-2023.sigevo.org/HomePage).
+If you find this code useful in your research then please cite:
 
+```bibtex
+@article{nomura2023cma,
+  title={CMA-ES with Learning Rate Adaptation: Can CMA-ES with Default Population Size Solve Multimodal and Noisy Problems?},
+  author={Nomura, Masahiro and Akimoto, Youhei and Ono, Isao},
+  journal={arXiv preprint arXiv:2304.03473},
+  year={2023}
+}
+```
 
 ### Dependencies
 * numpy=1.24.2
