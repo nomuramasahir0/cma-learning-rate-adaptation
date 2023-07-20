@@ -1,17 +1,25 @@
-## CMA-ES with Learning Rate Adaptation: Can CMA-ES with Default Population Size Solve Multimodal and Noisy Problems? (GECCO2023) [[slide]](gecco2023-slide.pdf)
+## CMA-ES with Learning Rate Adaptation: Can CMA-ES with Default Population Size Solve Multimodal and Noisy Problems? (GECCO2023 Best Paper Nominated) [[slide]](gecco2023-slide.pdf)
 
 ### About
 This repository contains the code for the paper
 "[CMA-ES with Learning Rate Adaptation: Can CMA-ES with Default Population Size Solve Multimodal and Noisy Problems?](https://arxiv.org/abs/2304.03473)"
-by Masahiro Nomura, Youhei Akimoto, and Isao Ono, which has been accepted to [GECCO'23](https://gecco-2023.sigevo.org/HomePage).
+by Masahiro Nomura, Youhei Akimoto, and Isao Ono, which has been accepted to [GECCO'23; Best Paper Nominated at ENUM Track](https://gecco-2023.sigevo.org/HomePage).
 If you find this code useful in your research then please cite:
 
 ```bibtex
-@article{nomura2023cma,
-  title={CMA-ES with Learning Rate Adaptation: Can CMA-ES with Default Population Size Solve Multimodal and Noisy Problems?},
-  author={Nomura, Masahiro and Akimoto, Youhei and Ono, Isao},
-  journal={arXiv preprint arXiv:2304.03473},
-  year={2023}
+@inproceedings{nomura2023cma,
+author = {Nomura, Masahiro and Akimoto, Youhei and Ono, Isao},
+title = {CMA-ES with Learning Rate Adaptation: Can CMA-ES with Default Population Size Solve Multimodal and Noisy Problems?},
+year = {2023},
+isbn = {9798400701191},
+publisher = {Association for Computing Machinery},
+url = {https://doi.org/10.1145/3583131.3590358},
+doi = {10.1145/3583131.3590358},
+booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference},
+pages = {839–847},
+numpages = {9},
+location = {Lisbon, Portugal},
+series = {GECCO '23}
 }
 ```
 
