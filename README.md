@@ -4,6 +4,11 @@
 This repository contains the code for the paper
 "[CMA-ES with Learning Rate Adaptation: Can CMA-ES with Default Population Size Solve Multimodal and Noisy Problems?](https://arxiv.org/abs/2304.03473)"
 by Masahiro Nomura, Youhei Akimoto, and Isao Ono, which has been accepted to [GECCO'23 (Best Paper Nominated at ENUM Track)](https://gecco-2023.sigevo.org/HomePage).
+
+You can also use the LRA-CMA-ES via the following Python libraries:
+* [Optuna](https://optuna.readthedocs.io/en/stable/reference/samplers/generated/optuna.samplers.CmaEsSampler.html): You need to specify `lr_adapt=False` in `CmaEsSampler`.
+* [cmaes](https://github.com/CyberAgentAILab/cmaes): Similarly, you need to specify `lr_adapt=True` in `CMA`.
+
 If you find this code useful in your research then please cite:
 
 ```bibtex
