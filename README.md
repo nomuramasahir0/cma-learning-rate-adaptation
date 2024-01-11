@@ -7,7 +7,7 @@ by Masahiro Nomura, Youhei Akimoto, and Isao Ono, which has been accepted to [GE
 
 You can also use the LRA-CMA-ES via the following Python libraries:
 * [cmaes](https://github.com/CyberAgentAILab/cmaes) (Recommended): It's only necessary to specify `lr_adapt=True` when using `CMA`.
-* [Optuna](https://optuna.readthedocs.io/en/stable/reference/samplers/generated/optuna.samplers.CmaEsSampler.html): Similarly, it's only necessary to specify `lr_adapt=False` in `CmaEsSampler`.
+* [Optuna](https://optuna.readthedocs.io/en/stable/reference/samplers/generated/optuna.samplers.CmaEsSampler.html): Similarly, it's only necessary to specify `lr_adapt=True` in `CmaEsSampler`.
 
 If you find this code useful in your research then please cite:
 
