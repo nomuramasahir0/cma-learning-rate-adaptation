@@ -52,7 +52,7 @@ You can run the experiments on other functions by specifying such arguments in t
 The benchmark functions include
 `sphere` (Sphere), `ellipsoid` (Ellipsoid), `rosen` (Rosenbrock),
 `ackley` (Ackley), `schaffer` (Schaffer), `rastrigin` (Rastrigin), 
-`rastrigin` (Rastrigin), `bohachevsky` (Bohachevsky), and `griewank` (Griewank),
+`bohachevsky` (Bohachevsky), and `griewank` (Griewank),
 
 
 ### Example (Noisy)
