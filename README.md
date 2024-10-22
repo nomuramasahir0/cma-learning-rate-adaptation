@@ -1,4 +1,4 @@
-## CMA-ES with Learning Rate Adaptation (GECCO2023 Best Paper Nominatation [[slide]](gecco2023-slide.pdf) and ACM Transactions on Evolutionary Learning)
+## CMA-ES with Learning Rate Adaptation (GECCO2023 Best Paper Nominatation [[slide]](gecco2023-slide.pdf) and ACM TELO)
 
 ### About
 This repository contains the code for the paper
