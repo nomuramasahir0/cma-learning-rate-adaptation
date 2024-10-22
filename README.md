@@ -1,9 +1,10 @@
-## CMA-ES with Learning Rate Adaptation: Can CMA-ES with Default Population Size Solve Multimodal and Noisy Problems? (GECCO2023 Best Paper Nominated) [[slide]](gecco2023-slide.pdf)
+## CMA-ES with Learning Rate Adaptation (GECCO2023 Best Paper Nominatation [[slide]](gecco2023-slide.pdf) and ACM Transactions on Evolutionary Learning)
 
 ### About
 This repository contains the code for the paper
 "[CMA-ES with Learning Rate Adaptation: Can CMA-ES with Default Population Size Solve Multimodal and Noisy Problems?](https://arxiv.org/abs/2304.03473)"
 by Masahiro Nomura, Youhei Akimoto, and Isao Ono, which has been accepted to [GECCO'23 (Best Paper Nominated at ENUM Track)](https://gecco-2023.sigevo.org/HomePage).
+The extended version of this paper, "[CMA-ES with Learning Rate Adaptation](https://dl.acm.org/doi/abs/10.1145/3698203)" is accepted for [ACM Transactions on Evolutionary Learning](https://dl.acm.org/journal/telo).
 
 You can also use the LRA-CMA-ES via the following Python libraries:
 * [cmaes](https://github.com/CyberAgentAILab/cmaes) (Recommended): It's only necessary to specify `lr_adapt=True` when using `CMA`.
@@ -25,6 +26,15 @@ pages = {839–847},
 numpages = {9},
 location = {Lisbon, Portugal},
 series = {GECCO '23}
+}
+```
+
+```bibtex
+@article{nomura2024cma,
+  title={CMA-ES with Learning Rate Adaptation},
+  author={Nomura, Masahiro and Akimoto, Youhei and Ono, Isao},
+  journal={ACM Transactions on Evolutionary Learning},
+  year={2024},
 }
 ```
 
