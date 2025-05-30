@@ -30,11 +30,15 @@ series = {GECCO '23}
 ```
 
 ```bibtex
-@article{nomura2024cma,
+@article{nomura2025cma,
   title={CMA-ES with Learning Rate Adaptation},
   author={Nomura, Masahiro and Akimoto, Youhei and Ono, Isao},
   journal={ACM Transactions on Evolutionary Learning},
-  year={2024},
+  volume={5},
+  number={1},
+  pages={1--28},
+  year={2025},
+  publisher={ACM New York, NY}
 }
 ```
 
